@@ -2,7 +2,7 @@
 
 I put together this repo to demonstrate two issues that I've encountered with [tailscale/walk](https://github.com/tailscale/walk). The [parent fork](https://github.com/lxn/walk) does not demonstrate these issues.
 
-* The `tab` key cannot be used to move beween elements in a main window
+* The `tab` key cannot be used to move between elements in a main window
 * There is an "overlay" bar at the top of the MainWindow. This happens most of the examples (which use MainWindow) that I've tested.
 
 ## Demonstration
