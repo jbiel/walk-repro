@@ -1,0 +1,12 @@
+# walk issue reproduction
+
+I put together this repo to demonstrate two issues that I've encountered with [tailscale/walk](https://github.com/tailscale/walk). The [parent fork](https://github.com/lxn/walk) does not demonstrate these issues.
+
+* The `tab` key cannot be used to move beween elements in a main window
+* There is an "overlay" bar at the top of the MainWindow. This happens most of the examples (which use MainWindow) that I've tested.
+
+## Demonstration
+
+The video below was run (`go run .`) on Windows Server 2022 using Go 1.24.1 via RDP.
+
+The video below was run (`GOOS=windows go build -o test.exe . && wine64 test.exe`) locally on Linux.
