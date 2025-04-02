@@ -9,4 +9,11 @@ I put together this repo to demonstrate two issues that I've encountered with [t
 
 The video below was run (`go run .`) on Windows Server 2022 using Go 1.24.1 via RDP.
 
+https://github.com/user-attachments/assets/ae83a334-c4f2-40ca-a4b8-7bcf86703578
+
+
+
 The video below was run (`GOOS=windows go build -o test.exe . && wine64 test.exe`) locally on Linux.
+
+https://github.com/user-attachments/assets/487a9ebf-0809-45fc-b71d-0e3884b6c29c
+
